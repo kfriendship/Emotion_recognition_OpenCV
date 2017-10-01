@@ -112,5 +112,5 @@ _-- Generating done_
 
 
 
-## D. xml 파일 경로
+## C. xml 파일 경로
 https://github.com/opencv-java/face-detection/tree/master/resources/haarcascades
