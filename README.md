@@ -101,44 +101,8 @@ _-- Generating done_
 > ~/opencv/opencv-3.2.0/build$ pkg-config --modversion opencv
 - 실행 시, 설치한 버전(여기선 3.2.0)이 출력되면 설치 성공
 
-## B. "Dlib 설치"
-> $ sudo apt-get install build-essential cmake
 
-> $ sudo apt-get install libgtk-3-dev
-
-> $ sudo apt-get install libboost-all-dev
-
-> $ wget https://bootstrap.pypa.io/get-pip.py
-
-> $ sudo python get-pip.py
-
-> $ pip install numpy
-
-> $ pip install scipy
-
-> $ pip install scikit-image
-
-> $ pip install dlib
-
-오류 발생 시,
-
-> $ pip install dlib --user
-
-설치 후,
-
-> $ python
-
-'>>> import dlib'
-
-'>>> import cv2'
-
-오류 없으면 성공!
-
-
-
-
-
-## C. 넘파이설치
+## B. 넘파이설치
 #### 넘파이는 외부라이브러리로 파이썬에 내장되어 있지 않은 계산을 할때에 쓰임
 > $ sudo apt-get install python3-pip
 
